@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+.card {
+  border-radius: 1.5rem;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(0, 123, 255, 0.15);
+}
+#helloBtn {
+  transition: background 0.3s, transform 0.2s;
+}
+#helloBtn:hover {
+  background: #0d6efd;
+  transform: translateY(-2px) scale(1.05);
+}
